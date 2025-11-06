@@ -1,0 +1,90 @@
+/* LoginPage.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.login-card, .dashboard-card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h2, h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="file"] {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+  float: right;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: white;
+  margin-left: 10px;
+}
+
+.reject-btn {
+  background-color: #ffc107;
+  color: black;
+  margin-left: 5px;
+}
+
+.request-list {
+  list-style: none;
+  padding: 0;
+}
+
+.request-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9fafb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2b7a0b;
+  text-align: center;
+}
