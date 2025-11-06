@@ -2,11 +2,12 @@
   "name": "certificatechain",
   "version": "1.0.0",
   "scripts": {
-  "start": "node server/server.js",
-  "dev": "nodemon server/server.js",
-  "build": "cd client && npm install && npm run build"
-},
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "build": "cd client && npm install && npm run build"
+  },
   "dependencies": {
+    "@simplewebauthn/server": "^13.2.2",
     "bcryptjs": "^3.0.3",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
@@ -18,11 +19,11 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "concurrently": "^9.2.0",
-    "nodemon": "^3.1.10",
-    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "@nomicfoundation/hardhat-ethers": "^3.1.2",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "concurrently": "^9.2.0",
     "hardhat": "^2.27.0",
+    "nodemon": "^3.1.10",
     "typescript": "^5.9.3"
   }
 }
